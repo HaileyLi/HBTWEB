@@ -290,9 +290,10 @@ margin-top:-150px;
 margin-left:-190px;
 cursor:pointer;
 color:black;
+background:white;
 text-decoration:none;
 }
-a.tritripro:hover{
+a.tritripro.na:hover{
 background:black;
 color:white;
 cursor:pointer;
@@ -312,11 +313,99 @@ cursor:pointer;
 color:black;
 text-decoration:none;
 }
-a.quesbankpro:hover{
+a.quesbankpro.na:hover{
 background:black;
 color:white;
 cursor:pointer;
 }
 
 
+a.tritripro.active{
+    margin-top: -360px;
+    margin-left: -650px;
+    color:white;
+    background:black;
+}
+a.quesbankprobtn{
+font-size:50px;
+padding-top:10px;
+padding-bottom:10px;
+padding-left:30px;
+padding-right:30px;
+margin:20px;
+border:5px solid black;
+border-radius:100px;
+    margin-top: -360px;
+    margin-left: 230px;
+cursor:pointer;
+color:black;
+text-decoration:none;
+}
+@-webkit-keyframes fadeInGame {
+            0% {
+               opacity: 1;
+               -webkit-transform: translate(400px, 210px);
+            }
+            100% {
+               opacity: 1;
+               -webkit-transform: translate(0,0);
+            }
+         }
+         
+         @keyframes fadeInGame {
+            0% {
+               opacity: 1;
+               transform: translate(400px,210px);
+            }
+            100% {
+               opacity: 1;
+               transform: translate(0,0);
+            }
+         }
+         .fadeInGame {
+         -webkit-animation-name: fadeInGame;
+         animation-name: fadeInGame;
+         } 
+         
+         @-webkit-keyframes fadeInWeb {
+            0% {
+               opacity: 1;
+               -webkit-transform: translate(-400px, 310px);
+            }
+            100% {
+               opacity: 1;
+               -webkit-transform: translate(0,0);
+            }
+         }
+         
+         @keyframes fadeInWeb {
+            0% {
+               opacity: 1;
+               transform: translate(-400px,310px);
+            }
+            100% {
+               opacity: 1;
+               transform: translate(0,0);
+            }
+         }
+         .fadeInWeb {
+         -webkit-animation-name: fadeInWeb;
+         animation-name: fadeInWeb;
+         } 
+         
+         
+.active{
+background:black;
+color:white;
+}
 
+img.triproj{
+position:absolute;
+margin-top:-210px;
+margin-left:-367px;
+}
+img.downloadapp{
+position:absolute;
+margin-top:-130px;
+margin-left:-300px;
+}
